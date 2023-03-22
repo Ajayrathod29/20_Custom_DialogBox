@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:src="@drawable/ps"
+       android:id="@+id/imageview2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="CONGRATULATIONS FOR SHOWING UP TODAY!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txt2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="How is the Android App Dev journey going"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="Send feedback" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:layout_weight="1"
+            android:text="Too good"
+            android:backgroundTint="#059142"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
